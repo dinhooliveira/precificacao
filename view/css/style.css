@@ -1,0 +1,579 @@
+body
+{
+       margin:0;
+       padding:0;
+       background-image: url('http://meuplanocf.com.br/view/img/pre-fundo.jpg');  
+       background-repeat: no-repeat; 
+       background-attachment: fixed; /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+       background-size: 100% 100%;
+    
+}
+
+
+.logoatendente{
+width:100%;
+height:auto;
+text-align:center;
+
+
+
+}
+
+.logoatendente img{
+
+width:80%;
+height:auto;
+  
+}
+
+#link_acesso
+{
+ text_decoration:none;
+ margin-left:2%;
+ padding-bottom:3%;
+
+}
+
+ div#login_admin.loginatendente{
+       margin-left:30%;
+       width:400px;
+       height:auto;
+       margin-top:5%;
+       background-color:rgba(190,190,190,0.7);
+    }
+
+ div#login_admin.loginatendente form{
+       padding-bottom:3%;
+       
+      
+    }
+    
+div#login_atendendente.loginatendente
+{
+  height:450px;
+  margin-bottom:4%;
+  
+}
+
+div#login_atendendente.loginatendente form
+{
+   text-align:center;
+}
+
+.formhonorario
+{
+  height: 500px;
+  overflow: scroll;
+}
+.btn
+{
+ margin-left:1%;
+}
+.list-group
+{
+   margin:2%;
+}
+div.row
+{
+ margin:1%;
+
+}
+
+.upload{
+margin-left:5%;
+}
+
+/*----------------------MSG---------------------------*/
+.alert {
+    float:right;
+    margin-right:10%;
+    width:80%;
+  
+  
+}
+
+
+div.panel.panel-primary{
+
+margin-left:5%;
+
+}
+
+
+li.list-group-item{
+
+margin-left:5%;
+
+}
+/*---------------------assinatura----------------------------*/
+
+img#assinatura{
+width: 100px;
+height:100px;
+}
+
+
+/*-------------------------login_atendente------------------------------*/
+
+
+.header_principal{
+    margin:0;
+    padding:0;
+    width:100%; 
+    
+    /*height: 350px;*/
+    /*background-color: #ccc;*/
+}
+.total{
+    width: 90%;
+    height: auto;
+    margin-top:5px;
+    margin-left:6%;
+    text-align:center;
+}
+.header_principal img{
+    width:350px;
+    height:auto;
+    margin-left:2%;
+    margin-top: 1%;
+    
+}
+
+
+.loginatendente {
+    margin-top:10px;
+    /*border:2px solid #000;*/
+   
+    width: 40%;
+    text-align:center;
+    border-radius:6px;
+    background-color:rgba(255,255,255,0.5);
+    margin-left:30%;
+    min-height: 250px;
+    
+}
+
+
+
+.loginatendente input.form-control{
+    /*margin:2%;*/
+   
+    height:30px;
+    border-radius:5px;
+    outline:none;
+    text-align: center;
+    font-size:135%;
+}
+
+
+#Cabecalho_login{
+    width:100%;
+    height:auto;
+    text-align: center;
+    background-color:rgba(70,130,180,0.3);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#Cabecalho_login b{
+    padding-top: 0;
+    color:#215CA8;
+    font-size:200%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#botao{
+    background-color:#215CA8;
+    color:#fff;
+    
+}
+
+#frase_efeito{
+    /*text-align:center;*/
+    font-size:200%;
+    font-family: "Times New Roman", Times, serif;
+    background:none;
+}
+
+/*---------------------------------cadastro_responsavel----------------------------*/
+.Dados_Atendente{
+    margin-top:0;
+    width:100%;
+    background-color: #215CA8;
+    color:#fff;
+    height: auto;
+}
+
+.Dados_Atendente span{
+    margin: 1%;
+    margin-left:2%;
+   
+    
+    
+  
+   
+      
+}
+
+
+
+.busca_responsavel{
+    width:100%;
+    /*border:2px solid #000;*/
+    margin-top:5%;
+    margin-bottom:3%;
+    float:left;
+    text-align: center;
+    
+}
+
+
+.busca_responsavel input.form-control{
+    text-align:center;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:25px;
+    
+}
+.busca_responsavel form #text{
+    
+    border-bottom:2px solid #000;
+    outline:none;
+   float:left;
+}
+
+.busca_responsavel form #text:hover{
+    background-color: #eee;
+   
+}
+.busca_responsavel form b{
+    
+   padding-top: 2px;
+  
+}
+.formulario_responsavel{
+     margin-top:2%;
+     margin-bottom: 5%;
+     text-align:center;
+     width:100%;
+     
+}
+
+
+
+.formulario_responsavel input{
+    text-align:center;
+    width:80%;
+    margin-top:5px;
+    margin-bottom: 10px;
+    font-size:100%;
+   
+}
+.formulario_responsavel form #text,#taxa_monetario,#taxa_variacao,#qtd_produto,#qtd_funcionario,#nomeempresa{
+    
+    border:none;
+    border-bottom:2px solid #ccc;
+    
+    outline:none;
+   
+}
+
+.formulario_responsavel #percentual,#monetario{
+    margin:0;
+    width: 5%;
+}
+
+.formulario_responsavel p{
+  font-size:180%;
+  font-family: "Times New Roman", Times, serif;
+  color:#666;
+
+}
+
+.formulario_responsavel b{
+  color:#666;
+}
+
+.empresa{
+    margin-top:10px;
+    /*border:2px solid #000;*/
+    float:right;
+    width: 50%;
+    text-align:center;
+    border-radius:6px;
+    background-color:rgba(255,255,255,0.4);
+    margin-right:20%;
+}
+/*-------------------------------contrato----------------------*/
+.contrato {
+  margin:10%; 
+  
+}
+
+.contrato #ref{
+    margin-left:2%;
+}
+
+.justificado{
+   text-align: justify;
+}
+
+.contrato #site{
+    text-align: center;
+}
+
+
+/*------------------------------MENU_ADMIN-------------------------------------*/
+
+#menuadmin{
+    margin-top:0;
+    margin-bottom:0;
+    width:100%;
+    background-color: #215CA8;
+    list-style-type: none;
+    color:#fff;
+    height: 80px;
+}
+
+#menuadmin li {
+    float: left;
+    border-right: 1px solid #bbb;
+    
+}
+
+#menuadmin  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+#menuadmin  li a:hover {
+    background-color: #1E90FF;
+}
+
+
+#rodape{
+
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#ff5700;
+   
+}
+
+#rodape p {
+    float:right;
+    padding:5px;
+    color:white;
+   
+}
+
+#rodape a{
+   color:#fff;
+   text-decoration:none;
+   
+}
+
+
+
+@media  screen and (min-device-width: 701px)and (max-device-width: 1500px) 
+{
+    #banner
+    {
+     display:none;
+    }
+    
+      #Cabecalho_login
+    {
+      display:none;
+    }
+    
+     .loginatendente img
+    {
+      width:80%;
+      margin-top:10%;
+    }
+    
+     span
+    {
+     font-size: 30px;
+     margin-bottom:3%;
+    } 
+      
+       .header_principal img
+    {
+      
+      display:none;
+    
+    }
+     #rodape
+     { margin-top:5%;
+     }
+   
+}
+
+@media  screen and (min-device-width: 431px)and (max-device-width: 700px) 
+{
+      .header_principal img
+    {
+      
+      display:none;
+    
+    }
+    
+      #Cabecalho_login
+    {
+      display:none;
+    }
+    
+     .loginatendente img
+    {width:80%;
+      /*display:none;*/
+    }
+     
+     .empresa
+     {
+       width:80%;
+       margin-right:5%;
+     }
+
+    .formulario_responsavel input
+    {
+    width:80%;
+    }
+    
+    
+    .loginatendente,#frase_efeito
+    {
+     width:90%;
+      min-height: 150px;
+      margin:5%;
+    }
+    
+    #resultado p{
+        font-size:100%;
+    }
+    
+    #banner
+    {
+     display:none;
+    }
+    
+    
+ div#login_admin.loginatendente{
+       margin-left:10%;
+       width:80%;
+       height:425px;
+       margin-top:50px;
+       background-color:rgba(190,190,190,0.7);
+    }
+    
+     div#login_admin.loginatendente form{
+        padding-top:10%;
+        margin-bottom:10%;
+      
+    }
+    
+    #rodape{
+     margin-top:20%;
+    }
+}
+
+
+@media only screen and (max-device-width: 430px) 
+{
+    
+   
+    body
+    {
+       background-image:none;
+     /*background-image: height:auto;*/
+    }
+    
+    #frase_efeito
+    {
+     font-size:175%;
+    }
+    
+    #banner img
+    {
+    width:100%;
+    height:250px;
+    display:none;
+    }
+    
+     .empresa
+     {
+       width:80%;
+       margin-right:5%;
+     }
+
+    .formulario_responsavel input
+    {
+    width:80%;
+    }
+    
+    .loginatendente,#frase_efeito
+    {
+      width:100%;
+      min-height: 150px;
+      margin:0;
+      
+    }
+    
+     .loginatendente
+    {
+      background-color:#ccc;
+      border-radius:0px;
+      margin-top:35%;
+    }
+    
+    .loginatendente img
+    {
+      width:80%;
+    }
+    
+    #resultado p{
+        font-size:125%;
+    }
+    
+      
+    .header_principal
+    {
+      
+      width:40%;
+      margin-left:51px;
+    }
+    
+    .header_principal img
+    {
+      
+      width:250px;
+      display:none;
+    
+    }
+    
+    #Cabecalho_login
+    {
+      display:none;
+    }
+    
+    div#login_admin.loginatendente{
+       margin-left:0;
+       width:100%;
+        margin-top:30%;
+        margin-bottom:20%;
+        background-color:rgba(190,190,190,0.7);
+    }
+
+
+    
+
+}
